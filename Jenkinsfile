@@ -7,6 +7,10 @@ pipeline
       			 git url: 'https://github.com/Nitzzz7/game-of-life-org.git'
            		     }
                                 }		   
-		
+		stage('clean'){
+			steps{
+				sh mvn clean
+			}
+		}
 	      }
 }	
