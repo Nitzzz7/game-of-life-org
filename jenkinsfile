@@ -3,9 +3,9 @@ pipeline {
 	stages {
     stage(git clone){
       steps{
-       git clone 
-       }
-      }
+       git clone https://github.com/Nitzzz7/game-of-life-org.git
+           }
+                    }		   
 		
-	}
-}
+	        }
+            }
